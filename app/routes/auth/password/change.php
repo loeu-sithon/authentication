@@ -21,6 +21,8 @@ $app->post('/change-password', $authenticated(), function() use ($app){
 
 		$user = $app->auth;
 
+		//var_dump($app->auth);exit;
+
 		$user->update([
 			'password' => $app->hash->password($password)
 		]);

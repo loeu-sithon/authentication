@@ -10,4 +10,6 @@ require INC_ROOT.'/app/routes/user/all.php';
 require INC_ROOT.'/app/routes/admin/example.php';
 require INC_ROOT.'/app/routes/errors/404.php';
 require INC_ROOT.'/app/routes/auth/password/change.php';
+require INC_ROOT.'/app/routes/auth/password/recover.php';
+require INC_ROOT.'/app/routes/auth/password/reset.php';
 

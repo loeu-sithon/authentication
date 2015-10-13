@@ -20,6 +20,7 @@
 		<div>
 			<input type="submit" value="Login">
 		</div>
+		<a href="{{ urlFor('password.recover') }}">Forget your password?</a>
 		<input type="hidden" name="{{ csrf_key }}" value="{{ csrf_token }}">
 	</form>
 {% endblock %}
